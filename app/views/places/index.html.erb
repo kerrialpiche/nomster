@@ -5,8 +5,8 @@
     <i><%= place.address %></i><br /><br />
     <p><%= place.description %></p><br />
 
-    <% if place.user_id.present? %>
-      <small><%= place.user_id.email %></small>
+    <% if place.user.present? %>
+      <small><%= place.user.email %></small>
     <% end %>
   </div>
   <% end %>
