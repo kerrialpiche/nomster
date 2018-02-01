@@ -1,0 +1,4 @@
+--skip-spring
+
+rails new cwave
+ 
