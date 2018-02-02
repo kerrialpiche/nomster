@@ -60,7 +60,7 @@ blockquote:before {
 blockquote p {
   display: inline;
 }
-.d-block{
-  height: 500px;
-  
+.carousel-inner > .carousel-item > img, .carousel-inner > .carousel-item > a > img{
+  height: 550px;
+  margin: 0 auto;
 }
